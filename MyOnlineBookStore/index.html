@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>My Online Book Store</title>
+</head>
+<body>
+    <header>
+        <nav class="HeaderClass">
+            <div class="logo-header">
+                <i class="fas fa-book"></i>
+                <h1>Welcome To My Online Book Store</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-container">
+            <img src="./images/heroSection.jpg" alt="Cover Image">
+        </div>
+        <div class="hero-text">
+            <h2>My Online Book Store</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, ullam?</p>
+        </div>
+    </main>
+    <div class="h2-featured"><h2>Featured Books</h2><br></div>
+    
+    <section class="featured-books">
+        
+        <div class="card-container">
+            <div class="single-card">
+                <div class="card-img">
+                    <img src="./images/atomic-habits.png" alt="Book Image">
+
+                </div>
+                <div class="card-text"><p>Atomic Habits By James Clear</p></div>
+            </div>
+            <div class="single-card">
+                <div class="card-img">
+                    <img src="./images/atomic-habits.png" alt="Book Image">
+
+                </div>
+                <div class="card-text"><p>Atomic Habits By James Clear</p></div>
+            </div>
+            <div class="single-card">
+                <div class="card-img">
+                    <img src="./images/atomic-habits.png" alt="Book Image">
+
+                </div>
+                <div class="card-text"><p>Atomic Habits By James Clear</p></div>
+            </div>
+            <div class="single-card">
+                <div class="card-img">
+                    <img src="./images/atomic-habits.png" alt="Book Image">
+
+                </div>
+                <div class="card-text"><p>Atomic Habits By James Clear</p></div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="about-us">
+        <div class="about-us-heading">
+            <h2>About Us</h2>
+        </div>
+        <div class="about-us-text"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste saepe neque velit soluta molestiae labore praesentium, rerum magnam obcaecati aut enim, rem ipsum veniam. Ea totam amet velit minima enim aliquam voluptatum saepe sequi, ducimus repudiandae voluptates corrupti quam voluptas!</p></div>
+    </section>
+    <section class="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="customer-reviews-content">
+            <img src="./images/atomic-habits.png" id="review-img" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores recusandae deserunt illum, est ad modi minima odio harum consectetur quaerat?</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #FFD43B;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book-table">
+        <h2>Books List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The Great Gatsby</td>
+                        <td>F. Scott Fitzgerald</td>
+                        <td>$10.99</td>
+                    </tr>
+                    <tr>
+                        <td>1984</td>
+                        <td>George Orwell</td>
+                        <td>$8.99</td>
+                    </tr>
+                    <tr>
+                        <td>To Kill a Mockingbird</td>
+                        <td>Harper Lee</td>
+                        <td>$12.99</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to our newsletter</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer >
+        <p>© 2024 My Online Bookstore</p>
+
+    </footer>
+    
+    
+</body>
+</html>

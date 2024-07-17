@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header {
+    background: crimson;
+    padding: 20px 30px; /* Increased padding for more height */
+}
+
+.HeaderClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header i {
+    color: white;
+    font-size: 35px; /*icon size*/
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.logo-header h1 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px; /* Increased font size for the heading */
+}
+
+.HeaderClass li {
+    display: inline-block;
+    padding: 10px 0; /* Added padding to increase size */
+}
+
+.HeaderClass li a {
+    margin-right: 30px;
+    color: white;
+    font-size: 20px; /* Increased font size for the links */
+    font-weight: 100;
+}
+.HeaderClass li a:hover {
+   color: darkred;
+}
+main{
+    margin-top: 15px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row-reverse; /*to move image to the right*/
+    justify-content: space-between;
+    align-items: center;
+    gap:40px
+}
+
+.hero-container img{
+    width: 100%;
+    height: 500px;
+}
+.hero-text{
+    
+}
+.hero-text h2{
+    width: 80%;
+    font-size: 3.3rem;
+    margin-bottom: 8px;
+    color: crimson;
+}
+.hero-text p{
+    width: 80%;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color:gray
+}
+@media(max-width:840px)
+{
+    main{
+        flex-direction: column;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+    }
+}
+.featured-books {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.h2-featured  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px; /* Add some space between the cards */
+}
+
+.single-card {
+    width: 200px;
+    border: 1px solid #ececec;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 20px; /* Add some space below the cards */
+    
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-text {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text p {
+    color: crimson;
+}
+.card-text p:hover{
+    color: darkred;
+}
+@media(max-width:840px)
+{
+    .h2-featured {
+        margin-top: 280px;
+    }
+}
+.about-us{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left:10px ;
+    border: 1px solid crimson;
+    margin-left: 120px;
+    align-items: center;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color:gray ;
+  
+}
+.about-us-heading{
+    
+    padding-bottom: 50px;
+
+}
+.about-us-text{
+text-decoration: none;
+text-decoration-color: none;   
+color:gray; 
+    
+
+}
+
+@media(max-width:840px)
+{
+    .about-us {
+        margin: 20px; 
+        width: 90%; 
+    }
+}
+.customer-reviews {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.customer-reviews h2 {
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    margin-bottom: 20px; 
+}
+
+.customer-reviews-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#review-img {
+    width: 250px;
+    height: 200px;
+    margin-right: 20px; 
+}
+
+.customer-reviews p {
+    margin: 0; 
+    max-width: 500px; 
+}
+
+.stars {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+
+.book-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book-table h2 {
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color:gray ;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.book-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.book-table thead {
+    background-color: crimson;
+    color: white;
+}
+
+
+
+.book-table th {
+    background-color: crimson;
+    color: white;
+    text-align: left;
+}
+
+.book-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color:gray ;
+    margin-bottom: 20px;
+    
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color:black;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.contact-form button:hover {
+    background-color: darkred;
+}
+
+    footer {
+        display:block;
+        background-color: crimson;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+
+
