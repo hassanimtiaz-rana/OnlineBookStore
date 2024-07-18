@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "description": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "image": "./images/atomic-habits.png"
+    },
+    {
+        "title": "Book2",
+        "author": "Author 2",
+        "description": "A Counterintuitive Approach to Living a Good Life",
+        "image": "./images/atomic-habits.png"
+    }
+    
+]
