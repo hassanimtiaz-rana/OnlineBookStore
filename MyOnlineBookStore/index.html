@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./bookPage.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <title>My Online Book Store</title>
 </head>
@@ -20,8 +22,8 @@
                 <h1>Welcome To My Online Book Store</h1>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Books</a></li>
+                <li><a href="#" id="home-button">Home</a></li>
+                <li><a href="#" id="book-button">Books</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -149,6 +151,16 @@
 
     </footer>
     
-    
+    <script>
+        $(document).ready(function() {
+            $('#home-button').on('click', function() {
+                window.location.href = 'index.html'; 
+            });
+
+            $('#book-button').on('click', function() {
+                window.location.href = 'books.html'; // Redirect to book.html
+            });
+        });
+    </script>
 </body>
 </html>

@@ -85,12 +85,32 @@ header {
     font-size: 1.2rem;
 }
 
-.book-container {
+.featured-books {
     display: flex;
-    flex-direction: row; /* Ensures books are in a row */
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+}
+
+.h2-featured  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px; /* Add some space between the cards */
 }
 
 .single-card {
@@ -99,6 +119,7 @@ header {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-bottom: 20px; /* Add some space below the cards */
+    
 }
 
 .card-img {
@@ -127,10 +148,10 @@ header {
 .card-text p:hover{
     color: darkred;
 }
-
 .load-more {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
@@ -145,4 +166,11 @@ header {
 
 .load-more button:hover {
     background-color: darkred;
+}
+footer {
+    display:block;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }

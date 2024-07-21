@@ -2,14 +2,44 @@
     {
         "title": "Atomic Habits",
         "author": "James Clear",
-        "description": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "description": "Non-Fiction Book",
         "image": "./images/atomic-habits.png"
     },
     {
-        "title": "Book2",
-        "author": "Author 2",
-        "description": "A Counterintuitive Approach to Living a Good Life",
-        "image": "./images/atomic-habits.png"
+        "title": "Harry Potter",
+        "author": "J.K Rowling",
+        "description": "Fiction Book",
+        "image": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg"
+    },
+    {
+        "title": "Beauty and The Beast",
+        "author": "Gabrielle-Suzanne",
+        "description": "Fiction Book",
+        "image": "https://images.penguinrandomhouse.com/cover/700jpg/9780736435758"
+    },
+    {
+        "title": "Think & Grow Rich",
+        "author": "Napoleon Hill",
+        "description": "Non-Fiction Book",
+        "image": "https://www.booksreading.pk/images/uploads/372021085358_p.webp"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "Non-Fiction Book",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg"
+    },
+    {
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "description": "Non-Fiction Book",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK5x2WPOHMhEOuK6yLeyMhvQHy5dqo3rZKvw&s"
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbet",
+        "description": "Fiction Book",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg"
     }
     
 ]
